@@ -4,7 +4,7 @@ def join_nested_strings(src)
   result = ""
   while count < src.length
     if src[count].is_a? String
-      result += src[count]
+      result += src[count] + " "
     end
     count += 1
   end
